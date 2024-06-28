@@ -22,7 +22,7 @@ body {
 }
 
 .chapters {
-    display: none;
+    display: none; /* Asegurarse de que los capítulos están ocultos por defecto */
     padding-left: 20px;
     display: flex;
     flex-wrap: wrap;
