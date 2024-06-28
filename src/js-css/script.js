@@ -1,3 +1,9 @@
+document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll('.chapters').forEach(chapterDiv => {
+        chapterDiv.style.display = 'none'; // Ocultar todos los capítulos al cargar la página
+    });
+});
+
 function toggleChapters(bookElement) {
     const chapters = bookElement.querySelector('.chapters');
 
